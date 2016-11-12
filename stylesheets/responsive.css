@@ -1,0 +1,75 @@
+/* For 980px or less */
+/*
+            @media screen and (max-width: 980px) {
+                
+                #pagewrap {
+                    width:94%; 
+                }
+                #content{
+                    width: 65%;
+                }
+                #sidebar {
+                    width:30%
+                }
+            }
+            
+/* For 700px or less */
+/*
+@media screen and (max-width: 700px) {
+                
+    #content{
+        width:auto;
+        float:none;
+    }
+    #sidebar {
+        width:auto;
+        float:none;
+    }
+}
+ */           
+/* For 480px or less */
+@media screen and (max-width: 700px) {
+    
+    #header_img {
+    
+    display:none;
+    
+    }
+    
+    #mobile_header_img {
+    
+    width:100%;
+    display:block;
+    
+    }   
+    
+    #content {
+        
+        width:100%;
+        clear:both;
+        
+    }
+    #contact{
+        
+        float:left;
+        width:100%;
+        clear:both;
+        
+    }
+    #navbar {
+        
+        display:none;
+        
+    }
+    .nav_li {
+        
+        clear:both;
+        
+    }
+    #mobile_menu {
+        float:right;
+        padding-left:auto;
+        padding-right:auto;
+        display:block;
+        
+    }
