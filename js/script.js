@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-   $("img").click(function(){
+   $(".thumb").click(function(){
        
        var $width = $(window).width();
               

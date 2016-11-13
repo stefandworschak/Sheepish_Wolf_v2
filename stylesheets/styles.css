@@ -15,6 +15,12 @@ header {
     
 }
 
+.social_img {
+    
+    width:10px;
+    
+}
+
 #header_img {
     padding:0px;
     margin:0px;
@@ -71,10 +77,12 @@ main {
     display:block;
     float:left;
     padding:5px;
-    width:150px;
+    width:15%;
+    min-width:100px;
     height:20px;
     border-right: 1px solid gray;
     margin-bottom:5px;
+    font-size:80%;
     
 } 
 .nav_li:hover {
@@ -83,7 +91,8 @@ main {
     display:block;
     float:left;
     padding:5px;
-    width:150px;
+    font-size:80%;
+    min-width:100px;
     height:20px;
     background-color:#d2d2d2;
     border-right: 1px solid gray;
