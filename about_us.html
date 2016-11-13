@@ -3,20 +3,35 @@
     <head>
         <title>About Us</title>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--[if lte IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
         
         <link rel="stylesheet" href="stylesheets/styles.css" />
+        <link rel="stylesheet" href="stylesheets/responsive.css" />
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/mobile_menu.js"></script>
         
     </head>
     <body>
         <header>
             <a href="index.html"><img id="header_img" src="img/header.png" alt="Sheepish Wolf Header" /></a>
+            <a href="index.html"><img id="mobile_header_img" src="img/mobile_header.png" alt="Sheepish Wolf Header" /></a>
         </header>
+        
+        <nav id="mobile_menu">
+        
+            <img id="mobile_menu_icon" src="img/mobile_menu.png" alt="Mobile Menu">
+        
+        </nav>
+        
         <nav id="navbar">
         <ul id="nav_ul">
             <a href="about_us.html"><li class="nav_li">About Us</li></a>
-            <a href=""><li class="nav_li">Our Products</li></a>
-            <a href=""><li class="nav_li">Contact</li></a>
-            <a href=""><li class="nav_li">Find us on: </li></a>
+            <a href="our_products.html"><li class="nav_li">Our Products</li></a>
+            <a href=""><li class="nav_li last">Contact</li></a>
         </ul>
         </nav>
         <main>
