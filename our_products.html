@@ -9,10 +9,19 @@
         <![endif]-->
         
         <link rel="stylesheet" href="stylesheets/styles.css" />
+        <link rel="stylesheet" href="stylesheets/products.css" />
         <link rel="stylesheet" href="stylesheets/responsive.css" />
+        
+        <script>
+        window.onload = function(){
+            
+            //window.alert(window.outerHeight);
+        }
+        </script>
         
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/mobile_menu.js"></script>
+        <script src="js/draggable.js"></script>
         
     </head>
     <body>
@@ -38,50 +47,33 @@
             
             <section id="content">
                 <h1 class="cont_index">Our Products:</h1>
-               
-                    <table id="products_table">
-                        
-                        <tr>
-                            <td>
-                                
-                                <b>SheepishWolf Lager</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
-                            
-                            </td>
-                            <td>
-                                <img class="thumb" id="thumb1" src="img/lager_thumbnail.png" alt="Thumbnail of our Lager" />
-                            </td>
-                            <td>
-                            
-                                <b>SheepishWolf Ale</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
-                                
-                            </td>
-                            <td>
-                                <img class="thumb" id="thumb2" src="img/lager_thumbnail.png" alt="Thumbnail of our Lager" />
-                            </td>
-                            
-                        </tr>
-                            <tr><td colspan="4">&nbsp;</td></tr>
-                        <tr>
-                            <td>
-                            
-                                <b>SheepishWolf IPA</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
-                                
-                            </td>
-                            <td>
-                                <img class="thumb" id="thumb3" src="img/lager_thumbnail.png" alt="Thumbnail of our Lager" />
-                            </td>
-                            <td>
-                            
-                                <b>SheepishWolf Stout</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
-                                
-                            </td>
-                            <td>
-                                <img class="thumb" id="thumb4" src="img/lager_thumbnail.png" alt="Thumbnail of our Lager" />
-                            </td>
-                            
-                        </tr>
-                
-                    </table>
+                    
+                    <ul id="product_list">
+                        <li class="product_list_desc">
+                            <b>SheepishWolf Lager</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                        </li>
+                        <li class="product_list_img second">
+                            <img class="thumb" id="thumb1" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
+                        </li>
+                        <li class="product_list_desc first_prod">
+                            <b>SheepishWolf Ale</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                        </li>
+                        <li class="product_list_img second">
+                            <img class="thumb" id="thumb2" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
+                        </li>
+                        <li class="product_list_desc first_prod">
+                            <b>SheepishWolf IPA</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                        </li>
+                        <li class="product_list_img second">
+                            <img class="thumb" id="thumb3" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
+                        </li>
+                        <li class="product_list_desc first_prod">
+                            <b>SheepishWolf Stout</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                        </li>
+                        <li class="product_list_img second">
+                            <img class="thumb" id="thumb4" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
+                        </li>
+                    </ul>
                     
               <div id="img_overlay">
                   <img id="enlarged" src="img/lager_large.png" alt="Enlarged photo of our beers" />
@@ -89,8 +81,21 @@
               </div>
                 
             </section>
-            <section id="contact">&nbsp;</section>
-            <footer id="footer"><a href="">Sitemap</a> &#124; <a href="">Impressum</a> &#124; <a href="">Disclaimer</a></footer>
+            
+            <section id="contact">
+                <h1 class="cont_index">My Order:</h1>
+                <p id="cart_items" class="cart" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    No item(s) added.
+                    <br /><br />
+                    <i>Drag &amp; drop one of the bottles from the left here to add them to your order!</i>
+                
+                </p>
+                <p id="total_price" class="cart">
+                Total: € 0.00
+                </p>
+            
+            </section>
+            <footer id="footer"><a href="">Sitemap</a> &#124; <a href="">Disclaimer</a>&#124; Find us on: <img src="img/fb_grey.png" alt="Facebook Logo" class="social_img" /> <img src="img/twitter_grey.png" alt="Twitter Logo" class="social_img" /> <img src="img/instagram_gray.png" alt="Instagram Logo" class="social_img" /></footer>
         
             <script src="js/script.js"></script>
         </main>
