@@ -14,6 +14,19 @@
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/mobile_menu.js"></script>
         
+		<script>
+		function myAlert()
+			{
+			alert("Cheers!! You have just Contacted Us...good for you!");
+			}
+		</script>
+		
+		<script>
+		function mysignUp()
+			{
+			alert("Thanks for signing up please check your mailbox for this weeks news letter");
+			}
+		</script>
       
     </head>
     <body>
@@ -40,19 +53,20 @@
             <section id="content">
 			
 			<div id="contactForm">
-	<h2>Give us your feedback</h2>
+			
+	<h2>Contact Us</h2>
 	<form action="#" method="post">
 		<fieldset>
 			<label for="name"></label>
-			<input type="text" id="name" placeholder="Enter your full name" />
+			<input type="text" id="name" placeholder="Your full name" />
 			
 			<label for="email"></label>
-			<input type="email" id="email" placeholder="Enter your email address" />
+			<input type="email" id="email" placeholder="Your email" />
 			
 			
 			<textarea id="message" placeholder="What's on your mind?"></textarea>
 			
-			<input type="submit" value="Send message" />
+			<input type="submit" value="Send message" onclick="myAlert()" />
 			
 		</fieldset>
 	</form>
@@ -65,13 +79,13 @@
 	<form action="#" method="post">
 		<fieldset>
 			<label for="name"></label>
-			<input type="text" id="name" placeholder="Enter your full name" />
+			<input type="text" id="name" placeholder="Your full name" />
 			
 			<label for="email"></label>
-			<input type="email" id="email" placeholder="Enter your email address" />
+			<input type="email" id="email" placeholder="Your email" />
 			
 			
-			<input type="submit" value="Send message" />
+			<input type="submit" value="Send message" onclick="mysignUp()" />
 			
 		</fieldset>
 	</form>
@@ -81,17 +95,25 @@
             <section id="contact">
 			
 			<div id="aboutUs">
+			<br/><br/><br/>
+			<hr>
 				<h2>Contact Us</h2>
 							
-			<p>If you have any questions about Sheepish Wolf Brewery or just feel like saying hi</p>
+			<p>If you have any questions about Sheepish Wolf Brewery or just feel like saying hi			
+			then give us a call or drop us an email and we'll get back to you as soon as possible.</p> 
 			
-			<p>then give us a call or drop us an email and we'll get back to you as soon as possible.</p> 
-			
+			<p>Please use the "Contact us" form and we will get back to you as soon as we can.</p>
 			<p>Don't be afraid - come say hi...</p>
-			<p>How to get in contact with Sheepish Wolf Brewery </p>
-			<p>Please use the "Contact us" form on the left hand side and we will get back to you as soon as we can</p>
+			<br/>
+			<br/><br/><br/><br/>
+			<br/>
+			<br/>
+			<hr>
+			<h2>News Letter</h2>
+			<p>Every week we put together a list of our newest idea's on our next brew plus we give helpful tips on brewing techniques</p>
+			<p> If your interested in learning more please sign up</p>
 			
-			
+			<br/>
 			</div>
 			
 			</section>
