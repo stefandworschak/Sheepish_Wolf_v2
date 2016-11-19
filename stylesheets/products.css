@@ -106,3 +106,10 @@ img.thumb {
     list-style-type: none;
     
 }
+
+.menu_links {
+    
+    display:block;
+    margin:0px;
+    padding:auto;
+}

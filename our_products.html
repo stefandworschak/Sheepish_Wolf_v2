@@ -38,9 +38,9 @@
         
         <nav id="navbar">
         <ul id="nav_ul">
-            <a href="about_us.html"><li class="nav_li">About Us</li></a>
-            <a href="our_products.html"><li class="nav_li">Our Products</li></a>
-            <a href="contact_us.html"><li class="nav_li last">Contact</li></a>
+            <li class="nav_li"><a href="about_us.html" class="menu_links">About Us</a></li>
+            <li class="nav_li"><a href="our_products.html" class="menu_links">Our Products</a></li>
+            <li class="nav_li last"><a href="contact_us.html" class="menu_links">Contact</a></li>
         </ul>
         </nav>
         <main>
@@ -51,24 +51,86 @@
                     <ul id="product_list">
                         <li class="product_list_desc">
                             <b>SheepishWolf Lager</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                            <br /><br />
+                            <div class="add_to_cart">Select Quantity: 
+                                <select id="lager_qty">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                </select> <button onclick="addBeer('1')">Add to Cart</button>
+                            </div>
                         </li>
                         <li class="product_list_img second">
                             <img class="thumb" id="thumb1" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
                         </li>
                         <li class="product_list_desc first_prod">
                             <b>SheepishWolf Ale</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                            <br /><br />
+                            <div class="add_to_cart">Select Quantity: 
+                                <select id="ale_qty">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                </select> <button onclick="addBeer('2')">Add to Cart</button>
+                            </div>
                         </li>
                         <li class="product_list_img second">
                             <img class="thumb" id="thumb2" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
                         </li>
                         <li class="product_list_desc first_prod">
                             <b>SheepishWolf IPA</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                            <br /><br />
+                            <div class="add_to_cart">Select Quantity: 
+                                <select id="ipa_qty">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                </select> <button onclick="addBeer('3')">Add to Cart</button>
+                            </div>
+                            
                         </li>
                         <li class="product_list_img second">
                             <img class="thumb" id="thumb3" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
                         </li>
                         <li class="product_list_desc first_prod">
                             <b>SheepishWolf Stout</b> is a well-proportioned bottom-fermented lager beer with a flavour of hops, grains, pine needles, sorrel and Danish summer apples. The bitterness of the hops and the apple-like sweetness provide a harmoniously balanced taste.
+                            <br /><br />
+                            <div class="add_to_cart">Select Quantity: 
+                                <select id="stout_qty">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                </select> <button onclick="addBeer('4')">Add to Cart</button>
+                            </div>
+                            
                         </li>
                         <li class="product_list_img second">
                             <img class="thumb" id="thumb4" src="img/lager_medium.png" alt="Thumbnail of our Lager" ondragstart="dragStart(event)" draggable="true" />
