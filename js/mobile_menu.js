@@ -1,9 +1,9 @@
-$(document).ready(function(){
-
-    $("#mobile_menu_icon").click(function(){
+    $(document).ready(function(){
         
-        $("#navbar").toggle();
-        
-    })
+        $("#mobile_menu_icon").click(function(){
 
-});
+            $("#navbar").toggle();
+
+        });
+
+    });
