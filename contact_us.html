@@ -31,8 +31,8 @@
     </head>
     <body>
         <header>
-            <a href="index.html"><img id="header_img" src="img/header.png" alt="Sheepish Wolf Header" /></a>
-            <a href="index.html"><img id="mobile_header_img" src="img/mobile_header.png" alt="Sheepish Wolf Header" /></a>
+            <a href="index.html?loggedin=1"><img id="header_img" src="img/header.png" alt="Sheepish Wolf Header" /></a>
+            <a href="index.html?loggedin=1"><img id="mobile_header_img" src="img/mobile_header.png" alt="Sheepish Wolf Header" /></a>
         </header>
         
         <nav id="mobile_menu">
@@ -43,9 +43,9 @@
         
         <nav id="navbar">
         <ul id="nav_ul">
-			<a href="about_us.html"><li class="nav_li">About Us</li></a>
-            <a href="our_products.html"><li class="nav_li">Our Products</li></a>
-            <a href="contact_us.html"><li class="nav_li last">Contact</li></a>
+			<li class="nav_li"><a href="about_us.html" class="menu_links">About Us</a></li>
+            <li class="nav_li"><a href="our_products.html" class="menu_links">Our Products</a></li>
+            <li class="nav_li last"><a href="contact_us.html" class="menu_links">Contact</a></li>
         </ul>
         </nav>
         <main>
@@ -58,15 +58,15 @@
 	<form action="#" method="post">
 		<fieldset>
 			<label for="name"></label>
-			<input type="text" id="name" placeholder="Your full name" />
+			<input type="text" id="name" class="contact_form" placeholder="Your full name" />
 			
 			<label for="email"></label>
-			<input type="email" id="email" placeholder="Your email" />
+			<input type="email" id="email" class="contact_form" placeholder="Your email" />
 			
 			
 			<textarea id="message" placeholder="What's on your mind?"></textarea>
 			
-			<input type="submit" value="Send message" onclick="myAlert()" />
+			<input type="submit" value="Send message" class="contact_form" onclick="myAlert()" />
 			
 		</fieldset>
 	</form>
@@ -79,13 +79,13 @@
 	<form action="#" method="post">
 		<fieldset>
 			<label for="name"></label>
-			<input type="text" id="name" placeholder="Your full name" />
+			<input type="text" id="name" class="contact_form" placeholder="Your full name" />
 			
 			<label for="email"></label>
-			<input type="email" id="email" placeholder="Your email" />
+			<input type="email" id="email" class="contact_form" placeholder="Your email" />
 			
 			
-			<input type="submit" value="Send message" onclick="mysignUp()" />
+			<input type="submit" value="Send message" class="contact_form" onclick="mysignUp()" />
 			
 		</fieldset>
 	</form>
@@ -117,9 +117,8 @@
 			</div>
 			
 			</section>
-            
-            <footer id="footer"><a href="">Sitemap</a> &#124; <a href="">Disclaimer</a>&#124; Find us on: <img src="img/fb_grey.png" alt="Facebook Logo" class="social_img" /> <img src="img/twitter_grey.png" alt="Twitter Logo" class="social_img" /> <img src="img/instagram_gray.png" alt="Instagram Logo" class="social_img" /></footer>
         
         </main>
+        <footer id="footer"><a href="">Sitemap</a> &#124; <a href="">Disclaimer</a>&#124; Find us on: <img src="img/fb_grey.png" alt="Facebook Logo" class="social_img" /> <img src="img/twitter_grey.png" alt="Twitter Logo" class="social_img" /> <img src="img/instagram_gray.png" alt="Instagram Logo" class="social_img" /></footer>
     </body>
 </html>

@@ -38,7 +38,10 @@
         border:1px solid gray;
         background:#FFFFFF;
     
+    }
+
 }
+
     
 @media screen and (max-width: 980px) {
                 
@@ -64,7 +67,18 @@
         background:#FFFFFF;
     
 }
-}
+
+        .menu_links {
+        
+        font-size:50%;
+        
+    }
+    
+    .menu_links:hover {
+        
+        font-size:50%;
+        
+    }
     
     
 }
@@ -115,17 +129,17 @@
     
     #navbar {
     
-        display:none;
-        margin-left:2%; 
-        margin-right:2%;
+        display:block;
+        margin-left:auto; 
+        margin-right:auto;
         margin-bottom:10px;
         width:96%;
-        height:30px;
+        height:auto;
         vertical-align:middle;
         text-align:center;
         padding:0px;
         background-color:#4b4b4b;
-        border:0px solid gray;
+        border:1px solid gray;
 
         box-shadow: 0px 0px 0px #000;
         /*Add other browser alt versions */
@@ -134,42 +148,6 @@
         font-family:Tahoma,Geneva,sans-seriff;
     }
 
-    #nav_ul {
-
-        list-style-type:none;
-        margin:0px;
-        padding:0px;
-        width:97%;
-
-
-    }
-    .nav_li {
-
-        text-align:center;
-        display:block;
-        padding:5px;
-        width:100%;
-        height:20px;
-        border-right: 0px solid gray;
-        margin-bottom:0px;
-        text-align:center;
-        background-color:#FFF;
-        color:#1e1e1e;
-        box-shadow: 2px 2px 6px #000;
-    } 
-    .nav_li:hover {
-
-        text-align:center;
-        display:block;
-        padding:5px;
-        width:100%;
-        height:20px;
-        background-color:#000000;
-        border-right: 0px solid gray;
-        margin-bottom:0px;
-        color:#FFFFFF;
-        text-align: center;
-    }
     .last {
 
         margin-bottom:5px;       

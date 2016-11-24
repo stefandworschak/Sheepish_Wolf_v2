@@ -1,7 +1,7 @@
 html, body{
     margin:0px;
     padding:0px;
-    background-color:#4b4b4b;
+    background-color:#2e2e2e;
 }
 
 header {
@@ -49,7 +49,7 @@ main {
     margin-right:2%;
     margin-bottom:10px;
     width:96%;
-    height:30px;
+    height:35px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     vertical-align:middle;
@@ -64,6 +64,7 @@ main {
     font-family:Tahoma,Geneva,sans-seriff;
 }
 
+
 #nav_ul {
     text-align:left;
     list-style-type:none;
@@ -72,42 +73,53 @@ main {
     
 }
 .nav_li {
-    
-    text-align:center;
-    display:block;
+    margin:0px;
+    padding:0px;
+    padding-top: 0px;
     float:left;
-    padding:5px;
     width:15%;
-    min-width:100px;
-    height:20px;
-    border-right: 1px solid gray;
-    margin-bottom:5px;
-    font-size:80%;
-    
-} 
-.nav_li:hover {
-    
-    text-align:center;
+    border:0px solid white;
+    height:35px;
     display:block;
-    float:left;
-    padding:5px;
-    font-size:80%;
+    
+    
+}
+
+.menu_links {
+    
+    display:block;
+    line-height:35px;
+    width:100%;
     min-width:100px;
-    height:20px;
-    background-color:#d2d2d2;
-    border-right: 1px solid gray;
-    margin-bottom:5px;
-    color:#1e1e1e;
-}
+    height:100%;
+    margin-left:0px;
+    margin-right:10px;
+    padding:0px;
 
-
-
-#nav_ul a:link, a:active, a:visited {
-    
-    color:white;
-    font-weight:bold; 
+    border-right:1px solid #C9C9C9;
+    text-align: center;
+    font-weight: bold;
+    font-size:80%;
     
 }
+.menu_links:hover {
+    
+    text-decoration:none;
+    color:#000000;
+    display:block;
+    line-height:35px;
+    width:100%;
+    min-width:100px;
+    height:100%;
+    margin-left:0px;
+    margin-right:10px;
+    padding:0px;
+    background-color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size:80%;
+}
+
 
 #mobile_menu {
     
@@ -239,7 +251,7 @@ color: white;
 
 }
 
-input {
+input.contact_form {
 float:left;
 width: 60%; 
 height: 15px; 
@@ -253,7 +265,7 @@ font-family: sans-serif; font-size: 16px; color: #f2f2f2;
 	
 
 	
-input:-placeholder 
+input.contact_form:-placeholder 
 {
 color: #FFF; 
 text-shadow: 0px -1px 0px grey; 
@@ -272,7 +284,7 @@ textarea {
 	    color: white;  
 	}
 	
-input:focus, textarea:focus {
+input.contact_form:focus, textarea:focus {
 	background: black;
 	background: linear-gradient(top, #668099 0%, #728eaa 20%); 
 	
@@ -288,4 +300,36 @@ input[type=submit] {
 h2{
 	width:100%
 	
+}
+
+#age {
+    margin-top:50px;
+    display:none;
+    text-align:center;
+    line-height: 35px;
+    font-size:100%;
+    color:white;
+    font-family: Tahoma,Geneva,sans-seriff; 
+}
+
+#age_header {
+    
+    width:30%;
+    min-width:350px;
+}
+
+#dob {
+    
+    width: 250px; 
+    height: 25px;
+    font-size:inherit;
+    
+}
+
+#submit_age {
+    
+    width: 100px; 
+    height: 27px;
+    font-size:inherit;
+    
 }
