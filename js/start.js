@@ -8,6 +8,7 @@
         $("header").hide();
         $("nav").hide();
         $("main").hide();
+        $("footer").hide();
         $("#age").show();
         $("body").css("background","#1e1e1e");
         $("#submit_age").on("click", function(){
@@ -24,6 +25,7 @@
                 $("header").show();
                 $("nav#navbar").show();
                 $("main").show();
+                $("footer").show();
                 
             } else {
                 
