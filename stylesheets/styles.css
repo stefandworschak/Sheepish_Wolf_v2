@@ -157,10 +157,13 @@ main {
 
 .cont_index {
     
+    font-size:110%;
+    line-height: 150%;
     padding-top:20px;
     padding-left:50px;
     padding-right:50px;
     padding-bottom:30px;
+    text-align:justify;
     
 }
 
@@ -194,7 +197,7 @@ main {
     height:100%;
     border: 1px solid black;
     float:right;
-    margin-bottom:20px;
+    margin-bottom:10px;
 	margin-left:20px;
     
 }
@@ -227,7 +230,7 @@ a:hover {
     
 }
 
-#contactForm {
+.contactForm {
 
 	width: 90%; 
 	height:100%;
@@ -356,7 +359,7 @@ h2{
     width:50%;
     float:left;
     margin-right:20px;
-    margin-bottom:20px;
+    margin-bottom:10px;
     
 }
 

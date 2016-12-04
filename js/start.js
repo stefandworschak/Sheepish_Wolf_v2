@@ -2,6 +2,7 @@
         
         var url = location.search;
         var loggedin = url.replace("?loggedin=","");
+        var screen = $("body").width();
         
         if(loggedin !== "1") { 
         
@@ -23,6 +24,8 @@
                 $("body").css("background","#2e2e2e");
                 $("#age").hide();
                 $("header").show();
+                if(screen <= 480) {$("#mobile_menu").show();}
+                else {$("#navbar").toggleClass("navbar_hide");}
                 $("nav#navbar").show();
                 $("main").show();
                 $("footer").show();
