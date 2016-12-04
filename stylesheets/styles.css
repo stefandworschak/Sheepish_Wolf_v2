@@ -45,6 +45,7 @@ main {
 
 #navbar {
     
+    display:block;
     margin-left:2%; 
     margin-right:2%;
     margin-bottom:10px;
@@ -148,14 +149,18 @@ main {
 }
 
 .sub_headings {
-    
-    padding-left:20px;
+    margin:0px;
+    padding-top:40px;
+    padding-left:50px;
     
 }
 
 .cont_index {
-   
-    padding:20px;
+    
+    padding-top:20px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:30px;
     
 }
 
@@ -171,22 +176,26 @@ main {
     color:#FFFFFF;
     /*Add other browser alt versions */
 }
-
+.separator {
+    
+    margin-left:50px;
+    margin-right:50px;
+    
+}
 #aboutUs {
     
     color:white;
-    font-weight:bold; 
 	font-family:Tahoma,Geneva,sans-seriff;
 	margin:10px;
 }
 #aboutUs_pic{
 	clear: both;
-	width:100%;
+	width:400px;
     height:100%;
     border: 1px solid black;
-    float:left;
-    margin-bottom:10px;
-	
+    float:right;
+    margin-bottom:20px;
+	margin-left:20px;
     
 }
 
@@ -219,24 +228,33 @@ a:hover {
 }
 
 #contactForm {
-	float:right;
+
 	width: 90%; 
 	height:100%;
+	margin: 0px; 
+    padding-top:20px;
+	padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:20px;
+	background-color: 334f71;
 	margin: 10px 10px ; 
 	padding: 10px 10px;
 	
-
-	
 }
 
-#News {
+#news {
 	
-	float:right;
 	width: 90%; 
 	height:100%;
+	margin: 0px; 
+    padding-top:20px;
+	padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:30px;
+	background-color:334f71;
 	margin: 10px 10px; 
 	padding: 10px 10px;
-	
+
 }
 
 label {
@@ -332,4 +350,16 @@ h2{
     height: 27px;
     font-size:inherit;
     
+}
+#brewhouse {
+    
+    width:50%;
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+    
+}
+
+#navbar-expanded {
+        display: block;
 }
