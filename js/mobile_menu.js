@@ -1,8 +1,10 @@
     $(document).ready(function(){
         
+        var hide = 0;
+        
         $("#mobile_menu_icon").click(function(){
-
-            $("#navbar").toggle();
+            
+            $("#navbar").toggleClass("navbar_hide");
 
         });
 

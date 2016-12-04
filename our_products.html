@@ -33,11 +33,11 @@
         <nav id="mobile_menu">
         
             <img id="mobile_menu_icon" src="img/mobile_menu.png" alt="Mobile Menu">
-        
         </nav>
         
-        <nav id="navbar">
+        <nav id="navbar" class="navbar_hide">
         <ul id="nav_ul">
+            <li class="nav_li"><a href="index.html?loggedin=1" class="menu_links">Home</a></li>
             <li class="nav_li"><a href="about_us.html" class="menu_links">About Us</a></li>
             <li class="nav_li"><a href="our_products.html" class="menu_links">Our Products</a></li>
             <li class="nav_li last"><a href="contact_us.html" class="menu_links">Contact</a></li>
@@ -47,7 +47,7 @@
         <main>
             
             <section id="content">
-                <h1 class="cont_index">Our Products:</h1>
+                <h1 class="sub_headings">Our Products:</h1>
                     
                     <ul id="product_list">
                         <li class="product_list_desc">
@@ -146,8 +146,8 @@
             </section>
             
             <section id="contact">
-                <h1 class="cont_index">My Order:</h1>
-                <p id="cart_items" class="cart" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h1 class="sub_headings">My Order:</h1>
+                <p id="cart_items" class="cart cont_index" ondrop="drop(event)" ondragover="allowDrop(event)">
                     No item(s) added.
                     <br /><br />
                     <i>Drag &amp; drop one of the bottles from the left here to add them to your order!</i>
