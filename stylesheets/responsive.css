@@ -96,10 +96,76 @@
         margin-bottom:0px;
         
     }
-    #brewhouse {
-    
+    /*
+    .menu_links {
+        font-size:120%;
+        line-height: normal;
+        border:0px solid gray;
         width:100%;
+        height:auto;
+        padding:5px;
+        
     }
+    .menu_links:hover {
+        font-size:120%;       
+        line-height: normal;
+        display:block;
+        border:0px solid gray;
+        width:100%;
+        height:auto;
+        padding:5px;
+        vertical-align: middle;
+
+
+    }
+    
+    .last {
+
+        margin-bottom:10px;       
+
+    }
+    .last:hover {
+
+        margin-bottom:10px;       
+
+    }
+
+
+
+    #nav_ul a:link, a:active, a:visited {
+
+        color:white;
+        font-weight:bold; 
+
+    }
+
+    img.thumb {
+
+        width:80%;
+        border:1px solid gray;
+        background:#FFFFFF;
+        float:left;
+
+    }
+
+    .product_list_desc {
+
+
+            border-top:1px solid #C9C9C9;
+            width:85%;
+            clear:both;
+            margin-bottom:10px;
+
+    }
+
+    .product_list_img {
+
+        min-width:80%;
+        
+
+
+    }
+    */
 }
 
     
@@ -149,7 +215,7 @@
     
     .navbar_hide {
         
-        display:none;
+        display:none!important;
         
     }
     
@@ -246,10 +312,8 @@
     .product_list_img {
 
         min-width:80%;
+        
 
-    }
-    #brewhouse, #aboutUs_pic {
-    
-        width:100%;
+
     }
 }
