@@ -158,7 +158,7 @@ main {
 .cont_index {
     
     font-size:110%;
-    line-height: 150%;
+    line-height: 200%;
     padding-top:20px;
     padding-left:50px;
     padding-right:50px;
@@ -193,7 +193,7 @@ main {
 }
 #aboutUs_pic{
 	clear: both;
-	width:400px;
+	width:50%;
     height:100%;
     border: 1px solid black;
     float:right;
