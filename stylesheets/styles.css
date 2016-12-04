@@ -45,7 +45,6 @@ main {
 
 #navbar {
     
-    display:block;
     margin-left:2%; 
     margin-right:2%;
     margin-bottom:10px;
@@ -157,10 +156,13 @@ main {
 
 .cont_index {
     
+    font-size:110%;
+    line-height: 200%;
     padding-top:20px;
     padding-left:50px;
     padding-right:50px;
     padding-bottom:30px;
+    text-align:justify;
     
 }
 
@@ -189,13 +191,11 @@ main {
 	margin:10px;
 }
 #aboutUs_pic{
-	clear: both;
-	width:400px;
-    height:100%;
-    border: 1px solid black;
-    float:right;
-    margin-bottom:20px;
-	margin-left:20px;
+    
+	width:50%;
+    float:left;
+    margin-bottom:10px;
+    padding-right:50px;
     
 }
 
@@ -353,10 +353,14 @@ h2{
     width:50%;
     float:left;
     margin-right:20px;
-    margin-bottom:20px;
+    margin-bottom:10px;
     
 }
 
-#navbar-expanded {
-        display: block;
+#numOne {
+    
+    padding-left:40px;
+    width:200px;
+    float:right;
+    
 }
