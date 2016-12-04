@@ -40,7 +40,9 @@
         background:#FFFFFF;
     
 }
-    
+ 
+}
+ 
 @media screen and (max-width: 980px) {
     
     
@@ -207,8 +209,8 @@
     #mobile_menu {
         
         float:left;
-        padding-left:auto;
-        padding-right:auto;
+        padding-left:2%;
+		padding-right:2%;
         display:block;
         
     }
