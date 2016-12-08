@@ -4,6 +4,9 @@
         <title>Contact Us</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
         <!--[if lte IE 9]>
             <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
         <![endif]-->
@@ -55,14 +58,18 @@
                 <h1 class="sub_headings">Contact Us</h1>
 			    <div class="contactForm">
                     
-	               <form action="#" method="post">
+	               <form action="contact_us.html" method="get">
 		              <fieldset>
 			             <label for="contactName"></label>
 			             <input type="text" id="contactName" class="contact_form" placeholder="Your full name" />
-                         <label for="contactEmail"></label>
-			             <input type="email" id="contactEmail" class="contact_form" placeholder="Your email" />
+                         
+						 
+						 <label for="contactEmail"></label>
+			             
+						 <input type="email" id="contactEmail" class="contact_form" placeholder="Your email" />
 			             <textarea id="contactMessage" placeholder="What's on your mind?"></textarea>
-			             <input type="submit" value="Send message" class="contact_form" onclick="myAlert()" />
+			             
+						 <input type="submit" value="Send message" class="contact_form" onclick="myAlert()" />
 		              </fieldset>
 	               </form>
                     
@@ -80,9 +87,9 @@
                             <input type="email" id="newsEmail" class="contact_form" placeholder="Your email" />
 
 
-                            <textarea id="newsMessage" placeholder="What's on your mind?"></textarea>
+                            
 
-                            <input type="submit" value="Send message" class="contact_form" onclick="myAlert()" />
+                            <input type="submit" value="Send message" class="contact_form" onclick="mysignUp()" />
 
                         </fieldset>
                     </form>

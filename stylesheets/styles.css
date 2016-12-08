@@ -329,12 +329,14 @@ h2{
     font-size:100%;
     color:white;
     font-family: Tahoma,Geneva,sans-seriff; 
+	width:100%;
+	background: #1e1e1e;
 }
 
 #age_header {
     
     width:30%;
-    min-width:350px;
+    min-width:250px;
 }
 
 #dob {
