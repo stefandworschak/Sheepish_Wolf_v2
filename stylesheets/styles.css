@@ -323,18 +323,22 @@ h2{
 
 #age {
     margin-top:50px;
+    width:100%;
     display:none;
     text-align:center;
     line-height: 35px;
     font-size:100%;
     color:white;
+    background:#1e1e1e;
     font-family: Tahoma,Geneva,sans-seriff; 
 }
 
 #age_header {
     
     width:30%;
-    min-width:350px;
+    min-width: 250px;
+    
+    
 }
 
 #dob {
